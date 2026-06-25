@@ -404,89 +404,87 @@
           style="
             margin-top: 2rem;
             padding: 2.5rem;
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 2rem;
-            align-items: center;
             text-align: left;
           "
         >
-          <div
-            style="
-              width: 160px;
-              height: 160px;
-              border-radius: 50%;
-              overflow: hidden;
-              flex-shrink: 0;
-              background: var(--card-border);
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              font-size: 2.5rem;
-            "
-          >
-            <img
-              src="images/img17.png"
-              alt="Friends and collaborators"
-              class="img-contain"
-              onerror="
-                this.style.display = 'none';
-                this.parentElement.textContent = '🤝';
-              "
-            />
-          </div>
-          <div>
-            <h4
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center">
+            <div
               style="
-                color: var(--brand-blue);
-                font-size: 1.1rem;
-                margin-bottom: 0.5rem;
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                overflow: hidden;
+                flex-shrink: 0;
+                background: var(--card-border);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 2.5rem;
               "
             >
-              "The people around you shape the person you become."
-            </h4>
-            <p
-              style="
-                color: var(--text-muted);
-                font-size: 0.85rem;
-                line-height: 1.6;
-              "
-            >
-              I have been blessed with incredible people in my corner: mentors
-              who guided me, friends who believed in me, and collaborators who
-              challenged me to be better. This section is a tribute to them, and
-              an invitation to you to be part of the story.
-            </p>
-            <button
-              class="expand-btn mt-1"
-              data-target="friendshipStory"
-              data-open-text="Show Less"
-              data-close-text="Read More About My People"
-            >
-              <span class="expand-label">Read More About My People</span>
-              <span class="arrow">↓</span>
-            </button>
-            <div class="expand-content" id="friendshipStory" style="background:var(--card);border:1px solid var(--card-border);border-radius:1rem;padding:1.5rem;margin-top:0">
-              <p>
-                Some of my closest relationships were forged in the most
-                unlikely places. I remember showing up to my first professional
-                gig with nothing but passion and a borrowed camera: and being
-                welcomed by people who saw potential, not lack. Those early
-                believers became family.
-              </p>
-              <p>
-                Over the years, I have worked alongside some of the most
-                talented individuals in broadcast media. We have shared long
-                nights on set, celebrated wins together, and pushed each other
-                through setbacks. These are the bonds that make this journey
-                worthwhile.
-              </p>
-              <p>
-                If you are reading this and we have worked together: thank you.
-                If we have not met yet: I look forward to the day we do. Because
-                every great story begins with a connection.
+              <img
+                src="images/img17.png"
+                alt="Friends and collaborators"
+                class="img-contain"
+                onerror="
+                  this.style.display = 'none';
+                  this.parentElement.textContent = '🤝';
+                "
+              />
+            </div>
+            <div>
+              <h4
+                style="
+                  color: var(--brand-blue);
+                  font-size: 1.1rem;
+                  margin-bottom: 0.5rem;
+                "
+              >
+                "The people around you shape the person you become."
+              </h4>
+              <p
+                style="
+                  color: var(--text-muted);
+                  font-size: 0.85rem;
+                  line-height: 1.6;
+                "
+              >
+                I have been blessed with incredible people in my corner: mentors
+                who guided me, friends who believed in me, and collaborators who
+                challenged me to be better. This section is a tribute to them, and
+                an invitation to you to be part of the story.
               </p>
             </div>
+          </div>
+          <button
+            class="expand-btn mt-1"
+            data-target="friendshipStory"
+            data-open-text="Show Less"
+            data-close-text="Read More About My People"
+          >
+            <span class="expand-label">Read More About My People</span>
+            <span class="arrow">↓</span>
+          </button>
+          <div class="expand-content" id="friendshipStory" style="background:var(--card);border:1px solid var(--card-border);border-radius:1rem;padding:1.5rem;margin-top:0">
+            <p>
+              Some of my closest relationships were forged in the most
+              unlikely places. I remember showing up to my first professional
+              gig with nothing but passion and a borrowed camera: and being
+              welcomed by people who saw potential, not lack. Those early
+              believers became family.
+            </p>
+            <p>
+              Over the years, I have worked alongside some of the most
+              talented individuals in broadcast media. We have shared long
+              nights on set, celebrated wins together, and pushed each other
+              through setbacks. These are the bonds that make this journey
+              worthwhile.
+            </p>
+            <p>
+              If you are reading this and we have worked together: thank you.
+              If we have not met yet: I look forward to the day we do. Because
+              every great story begins with a connection.
+            </p>
           </div>
         </div>
       </div>
